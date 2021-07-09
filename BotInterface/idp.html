@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head> 
+<title>ROOM BOY</title>
+<link rel="stylesheet" href="idp.css">	
+</head>
+<h1>ROOM CLEANING ROBOT</h1>
+<body>
+<ul class="navbar">
+<li>Water
+<li>Roller
+</ul>
+<ul class="motor">
+<li>motor
+</ul>
+<label class="switch3" >
+    <input type="toggle">
+    <input id="week" name="view" type="radio" checked>
+    <label for="week" onclick="water()">on</label>
+
+    <input id="month" name="view" type="radio">
+    <label for="month" onclick="waterstop()">off</label>
+    <span class="slider" ></span>
+  </label>
+  <div class="switch4">
+    <input type="toggle" name="switch4" class="switch4-checkbox" id="myswitch2" checked>
+    <label class="switch4-labels" for="myswitch2">
+          <span class="switch4-text"></span>
+          <span class="switch4-dot"></span>
+      </label>
+  </div> 
+  <div class="switch5">
+    <input type="checkbox" name="switch5" class="switch5-checkbox" id="myswitch3" checked>
+    <label class="switch5-labels" for="myswitch3">
+          <span class="switch5-text"></span>
+          <span class="switch5-dot"></span>
+      </label>
+  </div> 
+<p class="para" >
+<button  id="up" onmousedown="fwd()" onmouseup="stop()" ><img id="image1" src="up.png"></button>
+<button id="down" onmousedown="back()" onmouseup="stop()"><img id="image2" src="down.png"></button>
+<button id="left" onmousedown="left()" onmouseup="stop()"><img id="image3" src="left.png"></button>
+<button id="right" onmousedown="right()" onmouseup="stop()"><img id="image4" src="right.png"></button></p>
+<label class="switch1">
+  <input type="checkbox">
+  <span class="slider" on></span>
+</label>
+<label class="switch2">
+    <input type="checkbox">
+    <span class="slider"></span>
+  </label>
+<script src="script.js">
+
+</script>
+</html>

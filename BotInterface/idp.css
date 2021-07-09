@@ -1,0 +1,470 @@
+body {
+  padding-left: 5em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color:brown;
+  background-color: #B0E0E6;
+  background-image:url("back.jpg");
+  background-size: 1700px 700px;
+  background-repeat:no-repeat }
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+  color:white }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+        text-align:center;
+        position: relative;
+        left:-200px;
+        color:darkgreen;
+        font-size: 50px ; }
+ul.navbar li {
+  background: darkslateblue;
+  margin: 0.5em;
+  padding: 0.3em;
+  border-right: 1em solid black;
+  position:relative;
+  top: 170px;
+  left: 100px;
+  text-decoration-color:white ; }
+ul.navbar a {
+  text-decoration: none;
+  color:black }
+ul.motor {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+  color:white }
+ul.motor li {
+  background: darkslateblue;
+  margin: 0.5em;
+  padding: 0.3em;
+  border-right: 1em solid black;
+  border-left: 1em solid black;
+  position:relative;
+  top: 180px;
+  left: 550px;
+  text-decoration-color:white ; }
+#up{
+	position:relative;
+  top:220px;
+  left:320px;
+  height:100px;
+  width:100px;
+	}
+#down{
+	position:relative;
+	top:329px;
+  left:220px;
+  height:100px;
+  width:100px;}
+#left{
+	position:relative;
+	top:329px;
+  left:0px;
+  height:100px;
+  width:100px;}
+#right{
+	position:relative;
+	top:329px;
+  left:120px;
+  height:100px;
+  width:100px;
+  }
+button{
+  font-size: 100px;
+}  
+#image1{
+  height:95px;
+  width:95px;
+  position:relative;
+  top:-2px;
+  left:-6px;
+}
+#image2{
+  height:95px;
+  width:95px;
+  position:relative;
+  top:-2px;
+  left:-6px;
+}
+#image3{
+  height:95px;
+  width:95px;
+  position:relative;
+  top:-2px;
+  left:-6px;
+}
+
+#image4{
+  height:95px;
+  width:95px;
+  position:relative;
+  top:-2px;
+  left:-6px;
+}
+.para{
+	position:relative;
+	left:200px}							
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+
+/* The switch - the box around the slider */
+.switch1 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left: 170px;
+  top:-113px;
+}
+
+/* Hide default HTML checkbox */
+.switch1 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: blue;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}																				
+.switch2 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left: 107px;
+  top:-70px;
+}
+
+/* Hide default HTML checkbox */
+.switch2 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: blue;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}		
+
+.switch3 {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left: 610px ;
+  top: 260px;
+}
+
+/* Hide default HTML checkbox */
+.switch3 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: blue;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}			
+
+.switch4 {
+  position: relative;
+  width: 75px;
+  margin: 0 auto;
+  top:180px;
+  left:-200px;
+}
+
+.switch4-checkbox {
+  display: none;
+}
+
+
+/*Style words and oval switch */
+
+.switch4-labels {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.switch4-text {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.switch4-text:before,
+.switch4-text:after {
+  float: left;
+  width: 50%;
+  line-height: 30px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.switch4-text:before {
+  content: "clockwise";
+  padding-left: 10px;
+  background-color: #E1F6FF;
+  color: #000000;
+}
+
+.switch4-text:after {
+  content: "anti";
+  padding-right: 10px;
+  background-color: #4D5585;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+
+/*Style center dot*/
+
+.switch4-dot {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 41px;
+  margin-right: 5px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+
+.switch4-dot:after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url("1.png");
+    margin: 5px 0 0 5px;
+}
+
+
+/*State changer*/
+
+.switch4-checkbox:checked+.switch4-labels .switch4-text {
+  margin-left: 0;
+}
+
+.switch4-checkbox:checked+.switch4-labels .switch4-dot {
+  right: 0px;
+  margin-right: 0px;
+}
+
+.switch5 {
+  position: relative;
+  width: 75px;
+  margin: 0 auto;
+  top:150px;
+  left:-110px;
+}
+
+.switch5-checkbox {
+  display: none;
+}
+
+
+/*Style words and oval switch */
+
+.switch5-labels {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.switch5-text {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.switch5-text:before,
+.switch5-text:after {
+  float: left;
+  width: 50%;
+  line-height: 30px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.switch5-text:before {
+  content: "clockwise";
+  padding-left: 10px;
+  background-color: #E1F6FF;
+  color: #000000;
+}
+
+.switch5-text:after {
+  content: "anti";
+  padding-right: 10px;
+  background-color: #4D5585;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+
+/*Style center dot*/
+
+.switch5-dot {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 41px;
+  margin-right: 5px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+
+.switch5-dot:after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url("2.png");
+    margin: 5px 0 0 5px;
+}
+
+
+/*State changer*/
+
+.switch5-checkbox:checked+.switch5-labels .switch5-text {
+  margin-left: 0;
+}
+
+.switch5-checkbox:checked+.switch5-labels .switch5-dot {
+  right: 0px;
+  margin-right: 0px;
+}
